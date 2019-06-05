@@ -3,7 +3,8 @@
 class Form extends Component {
   state = {
     firstName: "John",
-    lastName: "Henry"
+    lastName: "Henry",
+    value: '',
   }
   
   handleFirstNameChange = event => {
